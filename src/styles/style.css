@@ -1,0 +1,33 @@
+body {
+  background-color: #fafafb;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+h3 {
+  color: rgb(70, 70, 70);
+}
+
+a {
+  color: rgb(125, 125, 125);
+  padding: 1em 1.5em;
+  text-decoration: none;
+  }
+
+.container { 
+  position: absolute;
+  left: 10%;
+  padding-top: 5%;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 100%;
+    }
+    to {
+      opacity: 0%;
+    }
+}
+
+.fade {
+    animation: fade-out 1s;
+}
