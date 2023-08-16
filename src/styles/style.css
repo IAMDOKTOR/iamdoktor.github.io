@@ -9,12 +9,11 @@ h3 {
 
 a {
   color: rgb(125, 125, 125);
-  padding: 1em 1.5em;
   text-decoration: none;
   }
 
 .container { 
-  position: absolute;
+  position: relative;
   left: 10%;
   padding-top: 5%;
 }
