@@ -1,18 +1,18 @@
 body {
-  background-color: #fafafb;
+  background-color: #cacad4;
   font-family: 'Roboto Flex', sans-serif;
 }
 
 h3 {
-  color: rgb(70, 70, 70);
+  color: rgb(35, 35, 35);
 }
 
 a {
-  color: rgb(125, 125, 125);
+  color: rgb(70, 70, 70);
   text-decoration: none;
-  }
+}
 
-.container { 
+.container {
   position: relative;
   left: 10%;
   padding-top: 5%;
@@ -21,12 +21,13 @@ a {
 @keyframes fade-out {
   from {
     opacity: 100%;
-    }
-    to {
-      opacity: 0%;
-    }
+  }
+
+  to {
+    opacity: 0%;
+  }
 }
 
 .fade {
-    animation: fade-out 1s;
+  animation: fade-out 1s;
 }
